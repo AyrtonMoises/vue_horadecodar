@@ -1,6 +1,6 @@
 <template>
-  <Message :msg="msg" v-show="msg" />
   <div>
+    <Message :msg="msg" v-show="msg" />
     <form id="burger-form" method="POST" @submit="createBurger">
       <div class="input-container">
         <label for="nome">Nome do cliente:</label>
